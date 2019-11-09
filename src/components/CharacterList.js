@@ -35,10 +35,7 @@ const CharacterList = (props) => {
     }, [props.searchState]);
 
     return (
-        <section className="character-list">
-
-            <h2>TODO: `array.map()` over your state here!</h2> */}
-            
+        <section className="character-list">            
                 <Container>
                     <Row>
                         {display.map((item,index) => {
